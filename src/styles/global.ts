@@ -19,13 +19,13 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   html {
-    font-size: 62,5%;
+    font-size: 62.5%;
   }
 
   html, body, #__next {
     height: 100%;
     background: var( --background);
-    color: var( --white)
+    color: var( --white);
   }
 
   body {
@@ -40,7 +40,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   a {
-    color: var( --highlight)
+    color: var( --highlight);
   }
   `
 export default GlobalStyles
